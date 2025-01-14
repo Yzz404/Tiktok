@@ -135,7 +135,7 @@ fi
 
 music_auto() {
 if ! pgrep -f mpv; then
-       mpv --quiet --no-video --volume=95 --terminal=no Musik1.mp3 Musik2.mp3 Musik3.mp3 Musik4.mp3 Musik5.mp3 Musik6.mp3 Musik7.mp3 Musik8.mp3 Musik9.mp3 &
+       mpv --quiet --no-video --volume=95 --terminal=no Musik1.mp3 Musik2.mp3 Musik3.mp3 Musik4.mp3 Musik5.mp3 Musik6.mp3 Musik7.mp3 Musik8.mp3 &
 fi
 }
 music_auto &> /dev/null
